@@ -1,0 +1,46 @@
+# Built application files
+*.apk
+*.aab
+
+# Explicitly track the distribution APK for GitHub direct download
+!dist/BlueProof-debug.apk
+
+# Gradle files
+.gradle/
+build/
+app/build/
+
+# Local configuration file (sdk.dir, etc)
+local.properties
+
+# Log Files
+*.log
+
+# Android Studio / IntelliJ IDEA files
+*.iml
+.idea/
+.navigation/
+captures/
+
+# Keystore files
+*.jks
+*.keystore
+
+# External native build folder paths
+.cxx/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+venv/
+env/
+ENV/
+*.db
+*.sqlite3
+
+# Windows
+Thumbs.db
+Desktop.ini
